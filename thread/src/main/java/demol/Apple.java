@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 public class Apple {
 
     private String color; //颜色
-    private double price; //价格
+    private String price; //价格
     private int size; //大小
     private boolean isEnter; //是否进口
 }

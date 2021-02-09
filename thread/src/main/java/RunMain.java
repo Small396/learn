@@ -1,22 +1,31 @@
-import com.alibaba.fastjson.JSON;
-import demol.Apple;
-import stream.FilterUtil;
 
+import demol.Apple;
+
+
+import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.Random;
+import java.util.stream.Collectors;
+
 
 /**
  * @author: lizhenguang
  * @date: 2021/2/9 1:34 下午
  */
 public class RunMain {
+
     private static List<Apple> apples;
+    private static String[] color = {"red", "yello", "green", "blank"};
+    private static Boolean[] enter = {true, false};
+    private static Random random = new Random();
+    private static int value = 6000;
 
     public static void main(String[] args) {
         init(12);
-        System.out.println(apples);
+        Map<String, List<Apple>> appleMap = apples.stream().filter(apple -> apple.isEnter() && "red".equals(apple.getColor())).collect(Collectors.groupingBy(Apple::getColor));
+
     }
 
     /**
@@ -38,11 +47,8 @@ public class RunMain {
      * @return
      */
     private static Apple produceApple() {
-        Random random = new Random();
-        String[] color = {"red", "yello", "green", "blank"};
-        Boolean[] enter = {true, false};
-        Apple apple = Apple.builder().color(color[random.nextInt(4)]).isEnter(enter[random.nextInt(2)]).size(random.nextInt(13)).price(random.nextDouble()).build();
-        return apple;
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        return Apple.builder().color(color[random.nextInt(4)]).isEnter(enter[random.nextInt(2)]).size(random.nextInt(13)).price(decimalFormat.format(random.nextDouble() + value)).build();
     }
 
 
