@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc43a45-5268-4f6c-aae3-1359bcf98960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/thread/target/classes/RunMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread/target/classes/RunMain.class" afterDir="false" />
-    </list>
+    <list default="true" id="0cc43a45-5268-4f6c-aae3-1359bcf98960" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,6 +131,10 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="208" y="23" width="1024" height="832" key="#Project_Structure/0.23.1440.832@0.23.1440.832" timestamp="1612848878589" />
+    <state x="456" y="248" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612854962098">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="456" y="248" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.832@0.23.1440.832" timestamp="1612854962098" />
     <state x="464" y="433" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612847301593">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
