@@ -10,11 +10,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc43a45-5268-4f6c-aae3-1359bcf98960" name="Default Changelist" comment="" />
+    <list default="true" id="0cc43a45-5268-4f6c-aae3-1359bcf98960" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/thread/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/RunMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/RunMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/learn/Learn.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -39,10 +55,12 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -50,8 +68,44 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.RunMain (1)">
+    <configuration name="RunMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunMain" />
+      <module name="thread" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.RunMain" />
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.learn.RunMain" />
+      <module name="learn" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunMain (1)" />
+        <item itemvalue="Application.RunMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -76,19 +130,60 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="464" y="433" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612847301593">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="464" y="433" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.832@0.23.1440.832" timestamp="1612847301593" />
+    <state x="556" y="378" width="472" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612847209975">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="556" y="378" width="472" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.832@0.23.1440.832" timestamp="1612847209975" />
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom" timestamp="1612848789588">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1612848789588" />
+    <state width="1398" height="268" key="GridCell.Tab.0.center" timestamp="1612848789588">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1612848789588" />
+    <state width="1398" height="268" key="GridCell.Tab.0.left" timestamp="1612848789587">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1612848789587" />
+    <state width="1398" height="268" key="GridCell.Tab.0.right" timestamp="1612848789588">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1612848789588" />
+    <state width="1398" height="268" key="GridCell.Tab.1.bottom" timestamp="1612848789590">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1612848789590" />
+    <state width="1398" height="268" key="GridCell.Tab.1.center" timestamp="1612848789589">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1612848789589" />
+    <state width="1398" height="268" key="GridCell.Tab.1.left" timestamp="1612848789589">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1612848789589" />
+    <state width="1398" height="268" key="GridCell.Tab.1.right" timestamp="1612848789589">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="268" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1612848789589" />
     <state x="651" y="181" key="RollbackChangesDialog" timestamp="1612844984943">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="651" y="181" key="RollbackChangesDialog/0.23.1440.832@0.23.1440.832" timestamp="1612844984943" />
-    <state x="172" y="23" width="1024" height="832" key="SettingsEditor" timestamp="1612846818803">
+    <state x="77" y="23" width="1024" height="832" key="SettingsEditor" timestamp="1612847558120">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="172" y="23" width="1024" height="832" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1612846818803" />
+    <state x="77" y="23" width="1024" height="832" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1612847558120" />
     <state x="124" y="102" key="new project wizard" timestamp="1612846155380">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
