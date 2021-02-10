@@ -11,11 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cc43a45-5268-4f6c-aae3-1359bcf98960" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/string/StringLearn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thread/src/main/java/RunMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/RunMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/resource/record" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/resource/record" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thread/target/classes/RunMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread/target/classes/RunMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/target/classes/stream/MapStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread/target/classes/stream/MapStream.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunMain (1)">
+  <component name="RunManager" selected="Application.StringLearn">
     <configuration name="Base64Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base64.Base64Run" />
       <module name="thread" />
@@ -123,8 +122,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringLearn" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringLearn" />
         <item itemvalue="Application.RunMain (1)" />
         <item itemvalue="Application.MapStream" />
         <item itemvalue="Application.Base64Run" />
@@ -177,22 +190,22 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="556" y="378" width="472" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.832@0.23.1440.832" timestamp="1612847209975" />
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1612937366701">
+    <state width="1398" height="302" key="GridCell.Tab.0.bottom" timestamp="1612938752837">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1612937366701" />
-    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1612937366700">
+    <state width="1398" height="302" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1612938752837" />
+    <state width="1398" height="302" key="GridCell.Tab.0.center" timestamp="1612938752836">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1612937366700" />
-    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1612937366700">
+    <state width="1398" height="302" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1612938752836" />
+    <state width="1398" height="302" key="GridCell.Tab.0.left" timestamp="1612938752835">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1612937366700" />
-    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1612937366700">
+    <state width="1398" height="302" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1612938752835" />
+    <state width="1398" height="302" key="GridCell.Tab.0.right" timestamp="1612938752836">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1612937366700" />
+    <state width="1398" height="302" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1612938752836" />
     <state width="1398" height="244" key="GridCell.Tab.1.bottom" timestamp="1612934623978">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
@@ -221,5 +234,9 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="124" y="102" key="new project wizard/0.23.1440.832@0.23.1440.832" timestamp="1612848869176" />
+    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1612938676947">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1612938676947" />
   </component>
 </project>

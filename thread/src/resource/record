@@ -16,3 +16,5 @@
    结果：["small","sun","shine","123","456","789"]
    String [] strArray  = str.split(" ");  //" " 指代表一个空字符
    结果：["small","sun","","","shine","123","456","","789"]
+7、统计字符串中出现某个字符多少次
+   int count = StringUtils.countMatches("small sun shine", "s");

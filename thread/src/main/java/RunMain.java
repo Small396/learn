@@ -28,6 +28,8 @@ public class RunMain {
         //String Str [] = str.split("\\s+");
        String Str [] = str.split(" ");
         System.out.println(JSON.toJSONString(Str));
+        str.startsWith("sm");
+        str.endsWith("shine");
        /* init(12);
         Map<String, List<Apple>> appleMap = apples.stream().filter(apple -> apple.isEnter() && "red".equals(apple.getColor())).collect(Collectors.groupingBy(Apple::getColor));
 */
