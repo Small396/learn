@@ -1,4 +1,5 @@
 
+import com.alibaba.fastjson.JSON;
 import demol.Apple;
 
 
@@ -23,9 +24,13 @@ public class RunMain {
     private static int value = 6000;
 
     public static void main(String[] args) {
-        init(12);
+        String str = "small sun   shine 123 456  789";
+        //String Str [] = str.split("\\s+");
+       String Str [] = str.split(" ");
+        System.out.println(JSON.toJSONString(Str));
+       /* init(12);
         Map<String, List<Apple>> appleMap = apples.stream().filter(apple -> apple.isEnter() && "red".equals(apple.getColor())).collect(Collectors.groupingBy(Apple::getColor));
-
+*/
     }
 
     /**

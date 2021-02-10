@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cc43a45-5268-4f6c-aae3-1359bcf98960" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/RunMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/RunMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thread/src/resource/record" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/resource/record" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/target/classes/RunMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread/target/classes/RunMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/target/classes/stream/MapStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread/target/classes/stream/MapStream.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapStream">
+  <component name="RunManager" selected="Application.RunMain (1)">
     <configuration name="Base64Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base64.Base64Run" />
       <module name="thread" />
@@ -121,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunMain (1)" />
         <item itemvalue="Application.MapStream" />
         <item itemvalue="Application.Base64Run" />
-        <item itemvalue="Application.RunMain (1)" />
         <item itemvalue="Application.RunMain" />
       </list>
     </recent_temporary>
@@ -173,22 +177,22 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="556" y="378" width="472" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.832@0.23.1440.832" timestamp="1612847209975" />
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1612934649742">
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1612937366701">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1612934649742" />
-    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1612934649742">
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1612937366701" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1612937366700">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1612934649742" />
-    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1612934649741">
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1612937366700" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1612937366700">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1612934649741" />
-    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1612934649742">
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1612937366700" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1612937366700">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1612934649742" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1612937366700" />
     <state width="1398" height="244" key="GridCell.Tab.1.bottom" timestamp="1612934623978">
       <screen x="0" y="23" width="1440" height="832" />
     </state>

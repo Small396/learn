@@ -10,3 +10,9 @@
   把列中凡是有2011的全部修改成2014，如 lieming 里的201101131431改成201401131431，写法：
   update tab set lieming = replace(lieming,'2011','2014');
 5、find_in_set(2,field) 相当于 in (2,3,4,5)
+6、空白字符拆分字符串数组
+   String str = "small sun   shine 123 456  789";
+   String [] strArray  = str.split("\\s+");// \s+  一个或多个空字符
+   结果：["small","sun","shine","123","456","789"]
+   String [] strArray  = str.split(" ");  //" " 指代表一个空字符
+   结果：["small","sun","","","shine","123","456","","789"]
