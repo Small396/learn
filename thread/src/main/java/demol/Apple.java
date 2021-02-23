@@ -2,7 +2,6 @@ package demol;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * @author: lizhenguang
