@@ -13,6 +13,9 @@ public class Base64Run {
     //private static transient Logger logger = LoggerFactory.getLogger(Base64Run.class);
 
     public static void main(String[] args) {
+int value = 12;
+
+        System.out.println("格式话："+String.format("%012d", value));
         //一般的base64加密
         String encode = encode("知耻而后勇");
         System.err.println(encode + "加密的结果为：" + decode(encode));
