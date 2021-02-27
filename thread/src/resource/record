@@ -42,4 +42,4 @@ for d in /var/{cache/man,catman}/{cat?,X11R6/cat?,local/cat?}; do
     fi
 done
 添加一行
-　　-X '/tmp/tomcat.*' 10d /tmp
+　　-X '/tmp/tomcat.*' 10d  /etc/tmp
