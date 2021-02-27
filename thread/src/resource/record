@@ -18,3 +18,13 @@
    结果：["small","sun","","","shine","123","456","","789"]
 7、统计字符串中出现某个字符多少次
    int count = StringUtils.countMatches("small sun shine", "s");
+8、上传文件报错 not valid
+错误：The temporary upload location [/tmp/tomcat.4424583835081790355.89/work/Tomcat/localhost/ROOT] is not valid
+意思是tomcat的临时目录会被 系统目录 tmpwatch 删除掉，甚至可能删除掉 class 文件。
+解决：
+1. 启动时指定新的临时目录
+-Djava.io.tmpdir=/var/tmp
+2. 配置文件中设置新的临时目录yml文件
+server:
+  tomcat:
+     basedir: /var/tmp/

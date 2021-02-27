@@ -13,14 +13,17 @@ public class Base64Run {
     //private static transient Logger logger = LoggerFactory.getLogger(Base64Run.class);
 
     public static void main(String[] args) {
-        int value = 12;
+
+            byte [] bytes = new byte[1024*1024];
+
+        /*int value = 12;
         System.out.println("格式话："+String.format("%012d", value));
         //一般的base64加密
         String encode = encode("知耻而后勇");
         System.err.println(encode + "加密的结果为：" + decode(encode));
         //url情况下的加解密- 转换+、/ 为 -、_
         String urlEncode = urlEncode("https://baidu.com:80/index.html?name=信息&age=9&sex=2");
-        System.err.println(urlDecode(urlEncode));
+        System.err.println(urlDecode(urlEncode));*/
     }
 
     /**
