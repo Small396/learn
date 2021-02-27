@@ -28,3 +28,18 @@
 server:
   tomcat:
      basedir: /var/tmp/
+9、前往目录 /etc/cron.daily/ 中，修改 tmpwatch 文件：
+#! /bin/sh
+flags=-umc
+/usr/sbin/tmpwatch "$flags" -x /tmp/.X11-unix -x /tmp/.XIM-unix \
+        -x /tmp/.font-unix -x /tmp/.ICE-unix -x /tmp/.Test-unix \
+        -X '/tmp/hsperfdata_*' 10d /tmp \
+        -X '/tmp/tomcat.*' 10d /tmp
+/usr/sbin/tmpwatch "$flags" 30d /var/tmp
+for d in /var/{cache/man,catman}/{cat?,X11R6/cat?,local/cat?}; do
+    if [ -d "$d" ]; then
+        /usr/sbin/tmpwatch "$flags" -f 30d "$d"
+    fi
+done
+添加一行
+　　-X '/tmp/tomcat.*' 10d /tmp

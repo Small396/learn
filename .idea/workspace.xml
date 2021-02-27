@@ -11,8 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cc43a45-5268-4f6c-aae3-1359bcf98960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/base64/Base64Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/base64/Base64Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thread/src/resource/record" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/resource/record" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
