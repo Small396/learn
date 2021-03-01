@@ -152,8 +152,8 @@
     <list>
       <item itemvalue="Application.Base64Run" />
       <item itemvalue="Application.MapStream" />
-      <item itemvalue="Application.RunMain" />
       <item itemvalue="Application.RunMain (1)" />
+      <item itemvalue="Application.RunMain" />
       <item itemvalue="Application.StringLearn" />
       <item itemvalue="Application.ThreadTest" />
     </list>

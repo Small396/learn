@@ -43,3 +43,6 @@ for d in /var/{cache/man,catman}/{cat?,X11R6/cat?,local/cat?}; do
 done
 添加一行
 　　-X '/tmp/tomcat.*' 10d  /etc/tmp
+10、关于@RestController 的解释官方文档是这样说的@RestController is astereotype annotation that combines
+ @ResponseBody and @Controller.就是说@RestController注解相当于@ResponseBody加 @Controller合在一起的作用。
+ 前后端不分离的项目，类上用@Controller，接口上用 @ResponseBody，如果用@RestController就会出现跳转页面不成功的现象。
