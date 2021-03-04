@@ -14,16 +14,19 @@ public class Base64Run {
 
     public static void main(String[] args) {
 
-            byte [] bytes = new byte[1024*1024];
+         //   byte [] bytes = new byte[1024*1024];
 
-        /*int value = 12;
+        int value = 12;
         System.out.println("格式话："+String.format("%012d", value));
         //一般的base64加密
-        String encode = encode("知耻而后勇");
-        System.err.println(encode + "加密的结果为：" + decode(encode));
+        /*String encode = encode("知耻而后勇");
+        System.err.println(encode + "加密的结果为：" + decode(encode));*/
+        String decode = decode("VU5ERUZJTkVEOkE4NjU0Qjk4NjRCRUYxNkVBNUE0MUUwNTg0Q0REN0I2");
+        System.out.println(decode);
         //url情况下的加解密- 转换+、/ 为 -、_
         String urlEncode = urlEncode("https://baidu.com:80/index.html?name=信息&age=9&sex=2");
-        System.err.println(urlDecode(urlEncode));*/
+        System.err.println(urlDecode(urlEncode));
+
     }
 
     /**
