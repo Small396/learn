@@ -12,11 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0cc43a45-5268-4f6c-aae3-1359bcf98960" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/demol/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/demol/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/target/classes/base64/Base64Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread/target/classes/base64/Base64Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/target/classes/demol/Apple$AppleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread/target/classes/demol/Apple$AppleBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/target/classes/demol/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread/target/classes/demol/Apple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/target/classes/string/StringLearn.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread/target/classes/string/StringLearn.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,11 +147,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.Base64Run" />
-      <item itemvalue="Application.FilterUtil" />
-      <item itemvalue="Application.Run" />
-      <item itemvalue="Application.StringJoinerTest" />
       <item itemvalue="Application.StringLearn" />
       <item itemvalue="Application.ThreadTest" />
+      <item itemvalue="Application.StringJoinerTest" />
+      <item itemvalue="Application.FilterUtil" />
+      <item itemvalue="Application.Run" />
     </list>
     <recent_temporary>
       <list>
