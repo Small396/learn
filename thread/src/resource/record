@@ -50,3 +50,5 @@ done
 12、10进制转化为16进制-linux
     命令：printf "%x\n" 15
     输出：f
+13、3种常见的Class级别的错误
+1、ClassNotFoundException 2、ClassNotFoundException 3、ClassNotFoundException
