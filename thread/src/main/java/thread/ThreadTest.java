@@ -1,8 +1,10 @@
 package thread;
 
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import com.alibaba.fastjson.JSON;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author: lizhenguang
@@ -10,51 +12,43 @@ import java.util.concurrent.TimeUnit;
  */
 public class ThreadTest {
 
- private   ThreadPoolExecutor threadPoolExecutor;
-    public static void main(String[] args) throws InterruptedException {
-        CountDownLatch count = new CountDownLatch(5);
-        long start = System.currentTimeMillis();
-        for (int i = 1; i <= 5; i++) {
-            int finalI = i;
-            new Thread(() -> {
-                try {
-                    System.out.println(finalI);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                } finally {
-                    count.countDown();
+    /**
+     * removeAll() 方法过滤
+     */
+    public static void removeAll() {
+        List<String> aList = new ArrayList<>();
+        aList.add("1");
+        aList.add("2");
+        aList.add("4");
+        List<String> bList = new ArrayList<>();
+        bList.add("1");
+        bList.add("2");
+        bList.add("3");
+        bList.removeAll(aList);
+        System.out.println(JSON.toJSONString(bList));
+    }
+
+
+    public static void  filter(){
+        List<String> list1 = new ArrayList<>();
+        list1.add("1");
+        list1.add("2");
+        list1.add("4");
+        List<String> list2 = new ArrayList<>();
+        list2.add("1");
+        list2.add("2");
+        list2.add("3");
+        list1.stream().forEach( a -> {
+            list2.stream().filter( b->  b.equals(a)).collect(Collectors.toList());
+
                 }
-            }).start();
-        }
-        count.await();
-        System.out.println("end");
-        long end  = System.currentTimeMillis();
-        System.out.println("用时:"+String.format("%sms", end - start));
-       /* long stratTime = System.currentTimeMillis();
-      //  final CountDownLatch countDownLatch = new CountDownLatch(1);
-        System.out.println("统计1到100和：" + count(1));
-        Thread thread001 = new Thread(() -> {
-            int sum  = 1;
-            for(int i =0;i<=100;i++){
-                ++sum;
-            }
-            System.out.println("累计计数器："+sum);
-        }, "线程一");
-        thread001.start();
-        long endTime = System.currentTimeMillis();
-        System.out.println("用时："+  (endTime - stratTime)+"ms");
+        );
 
-        System.out.println("thread结束了=========>>>");
-*/
     }
 
-
-    public static int count(int num) {
-        int sum = 0;
-        if (num < 101) {
-            sum = num + count(++num);
-        }
-        return sum;
+    public static void main(String[] args) throws InterruptedException {
+        removeAll();
     }
+
 }
 
