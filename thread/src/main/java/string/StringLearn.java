@@ -4,6 +4,9 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 /**
  * @author: lizhenguang
@@ -13,6 +16,21 @@ public class StringLearn {
 
 
     public static void main(String[] args) {
+ /*       for (int i = 1; i <= 10; i++) {
+            String uuid = UUID.randomUUID().toString();
+            System.out.println(String.format("第%s次,uuid:%s", i, uuid));
+            String uuidRemove = StringUtils.remove(uuid, '-');
+            System.out.println(String.format("第%s次,uuidRemove:%s%n", i, uuidRemove));
+        }*/
+
+        Map map = new HashMap();
+        map.put("small","sun");
+        map.put("sun","shine");
+        System.out.println(map.toString());
+        map.remove("small","s");
+        System.out.println(map.toString());
+
+
         //str字符串复制10变成一个全新的字符串对象
        /* String result = repeat("str", 10);
         System.out.println(result);*/
