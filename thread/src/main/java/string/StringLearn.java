@@ -3,10 +3,7 @@ package string;
 import org.apache.commons.lang3.StringUtils;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 /**
  * @author: lizhenguang
@@ -22,13 +19,30 @@ public class StringLearn {
             String uuidRemove = StringUtils.remove(uuid, '-');
             System.out.println(String.format("第%s次,uuidRemove:%s%n", i, uuidRemove));
         }*/
+       // Byte [] byte = new Byte[1024];
+        byte[] b = new byte[10];
+        List list = new ArrayList<>();
+        while (true) {
+            list.add(b);
+        }
+  /*      System.out.println(String.format("%d%%", 90));
+        System.out.println(String.format("%b", Boolean.TRUE));
+        System.out.println(String.format("%o", 16));
+        if (Boolean.TRUE.equals(true)) {
+            System.out.println("方法为true");
+        }
+        *//**
+         * o-8进制，x-16进制，d-10进制
+         */
 
+
+/*
         Map map = new HashMap();
         map.put("small","sun");
         map.put("sun","shine");
         System.out.println(map.toString());
         map.remove("small","s");
-        System.out.println(map.toString());
+        System.out.println(map.toString());*/
 
 
         //str字符串复制10变成一个全新的字符串对象
