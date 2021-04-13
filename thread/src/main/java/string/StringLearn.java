@@ -15,9 +15,31 @@ public class StringLearn {
     //静态对象
     private static final AtomicBoolean atomicBoolean = new AtomicBoolean();
 
-    public static void main(String[] args) {
+    public static int[] srand(int[] a) {
 
-        System.out.println(atomicBoolean.compareAndSet(true, false));
+        int[] b = new int[a.length];
+        for (int i = 0; i < a.length; i++) { //随机获取下标
+            double random = Math.random();
+
+            int tmp = (int) (random * (a.length - i)); //随机数:[ 0 ， a.length - i )
+           // System.out.println(tmp);
+            System.out.println(String.format("%f====>>>%d",random,tmp));
+            b[i] = a[tmp]; //将此时a[tmp]的下标移动到靠后的位置
+            int change = a[a.length - i - 1];
+            a[a.length - i - 1] = a[tmp];
+            a[tmp] = change;
+        }
+        return b;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int random = scanner.nextInt();
+        System.out.println("random============>>>" + random);
+        int[] a = {1,2,3,4,5,6,7,8,9};
+        System.out.println(Arrays.toString(srand(a)));
+
+        // System.out.println(atomicBoolean.compareAndSet(true, false));
 
  /*       for (int i = 1; i <= 10; i++) {
             String uuid = UUID.randomUUID().toString();
