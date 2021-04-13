@@ -4,6 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * @author: lizhenguang
@@ -11,20 +12,21 @@ import java.util.*;
  */
 public class StringLearn {
 
+    //静态对象
+    private static final AtomicBoolean atomicBoolean = new AtomicBoolean();
 
     public static void main(String[] args) {
+
+        System.out.println(atomicBoolean.compareAndSet(true, false));
+
  /*       for (int i = 1; i <= 10; i++) {
             String uuid = UUID.randomUUID().toString();
             System.out.println(String.format("第%s次,uuid:%s", i, uuid));
             String uuidRemove = StringUtils.remove(uuid, '-');
             System.out.println(String.format("第%s次,uuidRemove:%s%n", i, uuidRemove));
         }*/
-       // Byte [] byte = new Byte[1024];
-        byte[] b = new byte[10];
-        List list = new ArrayList<>();
-        while (true) {
-            list.add(b);
-        }
+        // Byte [] byte = new Byte[1024];
+
   /*      System.out.println(String.format("%d%%", 90));
         System.out.println(String.format("%b", Boolean.TRUE));
         System.out.println(String.format("%o", 16));
@@ -58,7 +60,6 @@ public class StringLearn {
         */
 
 
-
     }
 
     /**
@@ -71,8 +72,6 @@ public class StringLearn {
     public static String repeat(String str, int count) {
         return StringUtils.repeat(str, count);
     }
-
-
 
 
 }
